@@ -88,9 +88,8 @@
                     <div class="row">
                         
                     <div class="col">
-                    <label type="submit" class="textRegistro">
                                 <input class="obtenerInfo text" type="number" name="tarjeta" id="tarjeta" placeholder="Tarjeta" aria-label="Tarjeta"></input>
-                            </label>
+                
                         </div>
 
                         <div class="col-3">
