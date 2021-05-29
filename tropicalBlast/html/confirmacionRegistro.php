@@ -88,8 +88,9 @@
                     <div class="row">
                         
                     <div class="col">
-                                <input class="obtenerInfo text" type="number" name="tarjeta" id="tarjeta" placeholder="Tarjeta" aria-label="Tarjeta"></input>
+                                <input class="obtenerInfo textDark" type="text" name="tarjeta" id="tarjeta" placeholder="Tarjeta" aria-label="tarjeta"></input>
                         </div>
+
 
                         <div class="col-3">
                             <input class="obtenerInfo text" placeholder="Pin de seguridad"></input>
