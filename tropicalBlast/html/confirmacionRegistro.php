@@ -89,7 +89,6 @@
                         
                     <div class="col">
                                 <input class="obtenerInfo text" type="number" name="tarjeta" id="tarjeta" placeholder="Tarjeta" aria-label="Tarjeta"></input>
-                
                         </div>
 
                         <div class="col-3">
