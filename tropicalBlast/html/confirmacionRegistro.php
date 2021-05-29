@@ -17,7 +17,7 @@
 
 <nav class="navbar navbar-expand-lg navColor">
     <div class="container-fluid">
-        <a href="../index.html"><div class="logo"></div></a>
+        <a href="../index.html"><div class="logo" aria-hidden="true"></div><span class="sr-only">Logo</span></a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
             aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -86,10 +86,11 @@
 
                 <div class="containerConfInfo">
                     <div class="row">
-
-                        <div class="col">
-
-                            <input class="obtenerInfo text" placeholder="Tarjeta"></input>
+                        
+                    <div class="col">
+                    <label type="submit" class="textRegistro">
+                                <input class="obtenerInfo text" type="number" name="tarjeta" id="tarjeta" placeholder="Tarjeta" aria-label="Tarjeta"></input>
+                            </label>
                         </div>
 
                         <div class="col-3">
@@ -102,11 +103,11 @@
 
             <div class="row">
 
-                <a class="col nextbackBttn" href="../html/registrarse.html">
+                <a class="col nextbackBttn" href="../html/registrarse.php">
                     <img class="nextbtn" alt="Imagen de boton para regresar" src="../imgs/antras.png">
                 </a>
 
-                <a class="col-1 nextbackBttn" href="../html/resumenRegistro.html">
+                <a class="col-1 nextbackBttn" href="../html/resumenRegistro.php">
                     <img class="nextbtn" alt="Imagen de boton para seguir" src="../imgs/adelante.png">
                 </a>
             </div>
@@ -125,10 +126,9 @@
 
             <div class="socials">
                 <ul class="footerNavigator">
-                    <li class="footerItem"><a class="footerLink" href="#"><i class="fab fa-facebook-square"></i></a>
-                    </li>
-                    <li class="footerItem"><a class="footerLink" href="#"><i class="fab fa-instagram"></i></a></li>
-                    <li class="footerItem"><a class="footerLink" href="#"><i class="fab fa-twitter"></i></a></li>
+                    <li class="footerItem"><a class="footerLink" href="#"><i class="fab fa-facebook-square" aria-hidden="true"></i><span class="sr-only">Facebook</span></a></li>
+                    <li class="footerItem"><a class="footerLink" href="#"><i class="fab fa-instagram" aria-hidden="true"></i><span class="sr-only">Instagram</span></a></li>
+                    <li class="footerItem"><a class="footerLink" href="#"><i class="fab fa-twitter" aria-hidden="true"></i><span class="sr-only">Twitter</span></a></li>
                 </ul>
             </div>
             <p class="footertext"> copyright &copy;2021 TropycalBlast. </p>
